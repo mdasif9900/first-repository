@@ -1,0 +1,41 @@
+#include <stdio.h>
+#include<stdlib.h>
+#define size 1000
+int stack[size],num[size],x,top=-1;
+void push()
+{
+    stack[++top]=x;
+  
+}
+int pop()
+{
+    return(x=stack[top--]);
+}
+int main()
+{
+    int i,j,n;
+    scanf("%d",&n);
+    for(i=0;i<n;i++)
+    {
+        scanf("%d",&num[i]);
+    }
+    for(i=0,j=1;i<n;i++)
+    {
+        if(num[i]>j)
+        push(num[i]);
+        else if(num[i]==j)
+        {
+            j++;
+            while(top!=-1 && stack[top]==j)
+            {
+                pop();
+                j++;
+            }
+        }
+    }
+    if(j==n+1)
+        printf("happy\n");
+    else
+        printf("sad\n");
+        return 0;
+}
