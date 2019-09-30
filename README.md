@@ -34,4 +34,4 @@ Second line of each test case consists of N space separated integers denoting th
 
 
 
-3)c code to check two integer arrayequalent or not
+extra )c code to check two integer arrayequalent or not
