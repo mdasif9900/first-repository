@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include<stdlib.h>
 #define size 1000
-int stack[size],num[size],x,top=-1;
+int stack[size],x,top=-1,count=0;
 void push()
 {
     stack[++top]=x;
@@ -17,19 +17,19 @@ int main()
     scanf("%d",&n);
     for(i=0;i<n;i++)
     {
-        scanf("%d",&num[i]);
+        scanf("%d",&stack[i]);
     }
     for(i=0,j=1;i<n;i++)
     {
-        if(num[i]>j)
-        push(num[i]);
-        else if(num[i]==j)
+        if(stack[i]>j)
+        push(stack[i]);
+        else if(stack[i]==j)
         {
             j++;
             while(top!=-1 && stack[top]==j)
             {
                 pop();
-                j++;
+                count++;
             }
         }
     }
@@ -39,3 +39,4 @@ int main()
         printf("sad\n");
         return 0;
 }
+   
