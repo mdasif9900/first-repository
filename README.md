@@ -11,12 +11,12 @@ The next line contains N elements where the ith element is theS[ i ] of ith code
 Output Format
 Print a single line containing the minimum sum.
 
-sample input              sample output
-6                         11
+sample input              
+6                         
 1 7 2 2 4 4
 
-
-
+sample output
+11
 
 
 2).Micro and Array Update
@@ -31,16 +31,16 @@ First line consists of a single integer, T, denoting the number of test cases.
 First line of each test case consists of two space separated integers denoting N and K.
 Second line of each test case consists of N space separated integers denoting the arra2y
 
-SAMPLE INPUT          SAMPLE OUTPUT
-2                      3
-3 4                    0
+SAMPLE INPUT          
+2                      
+3 4                   
 1 2 5
 3 2
 2 5 5
 
-
-
-
+SAMPLE OUTPUT
+3
+0
 
 
 extra )c code to check two integer arrayequalent or not
