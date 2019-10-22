@@ -105,5 +105,20 @@ SAMPLE INPUT
  SAMPLE OUTPUT
 
 100 1
+
+
+
+
+
 19 12 17
+
+
+
+
+
+
+
+
+
+
 77 18
