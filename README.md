@@ -95,14 +95,27 @@ Constraints 1<=T<=1000 1<=N<=100000 0<=K< N 0<=popularity_of_friend<=100
 NOTE: Order of friends after deleting exactly K friends should be maintained as given in input. 
 
 SAMPLE INPUT         
-3                     
-3 1                   
-3 100 1                
+3         
+
+
+3 1   
+
+
+3 100 1  
+
+
 5 219 12 3 4 17
+
+
+
 5 3
+
+
 23 45 1177 18
 
- SAMPLE OUTPUT
+
+
+SAMPLE OUTPUT
 
 100 1
 
