@@ -53,13 +53,13 @@ Input Format N - Number of records followed by N numbers- order of records.
 Output Format Print "Happy" if the playlist has songs from 1 to N in order else "Sad". 
 Constraints 1<=N<=10^5 The array consists of 1-N distinct numbers. 
 
-SAMPLE INPUT          SAMPLE OUTPUT
-5                     Happy
+SAMPLE INPUT
+5                     
 1 2 4 3 5
 
+SAMPLE OUTPUT
 
-
-
+Happy
 
 
 
@@ -70,14 +70,14 @@ Input Format The first line of input will contain a single integer n denoting th
 Output Format Output all the integers separated in the array from left to right that are not smaller than those on its right side. 
 Constraints 1 <= n <= 1000000 0 <= arr[i] <= 10000 
 
-SAMPLE INPUT          SAMPLE OUTPUT
-6                     17 5 2
+SAMPLE INPUT         
+6                     
 16 174 3 5 2  
 
 
+SAMPLE OUTPUT
 
-
-
+17 5 2
 
 
 
@@ -94,15 +94,16 @@ Constraints 1<=T<=1000 1<=N<=100000 0<=K< N 0<=popularity_of_friend<=100
 7 
 NOTE: Order of friends after deleting exactly K friends should be maintained as given in input. 
 
-SAMPLE INPUT          SAMPLE OUTPUT
-3                     100 1
-3 1                   19 12 17
-3 100 1                77 18
+SAMPLE INPUT         
+3                     
+3 1                   
+3 100 1                
 5 219 12 3 4 17
 5 3
 23 45 1177 18
 
+ SAMPLE OUTPUT
 
-
-
-
+100 1
+19 12 17
+77 18
