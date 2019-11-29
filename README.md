@@ -1,4 +1,4 @@
-1). Frustrated coders
+1 Frustrated coders
 There are N frustrated coders standing in a circle with a gun in their hands. Each coder
 has a skill value S[ i ] and he can only kill those coders that have strictly less skill than
 him. One more thing, all the guns have only 1 bullet. This roulette can take place in
